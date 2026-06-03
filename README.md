@@ -1,12 +1,12 @@
-# GenAI in Additive Manufacturing
+# AI in Additive Manufacturing
 
-![GenAI in AM](images/header-image.jpg)
+![AI in AM](images/header-image.jpg)
 
 ## Executive Summary
 
-This repository houses an educational platform designed to bridge the domains of Additive Manufacturing (AM) and Generative Artificial Intelligence (GenAI). The platform serves as a comprehensive resource for AM professionals, researchers, engineers, and educators looking to leverage the power of generative AI technologies in their manufacturing workflows.
+This repository houses an educational platform designed to bridge the domains of Additive Manufacturing (AM) and Artificial Intelligence (AI). The platform serves as a comprehensive resource for AM professionals, researchers, engineers, and educators looking to leverage the power of AI technologies, including generative AI, in their manufacturing workflows.
 
-GenAI in AM empowers additive manufacturing professionals to harness cutting-edge artificial intelligence capabilities for applications including:
+AI in AM empowers additive manufacturing professionals to harness cutting-edge artificial intelligence capabilities for applications including:
 
 - Design optimization and generative design
 - Process parameter prediction and optimization
@@ -21,11 +21,11 @@ Whether you're new to AI concepts or an experienced practitioner seeking AM-spec
 
 - [Executive Summary](#executive-summary)
 - [Educational Content Structure](#educational-content-structure)
-  - [Introduction to GenAI in AM](#introduction-to-genai-in-am)
+  - [Introduction to AI in AM](#introduction-to-ai-in-am)
   <!-- - [Core Technologies](#core-technologies) -->
-  - [Develop GenAI model](#Develop-GenAI-model)
-  <!-- - [Develop GenAI model](#implementation-tutorials) -->
-  - [GenAI agents](#GenAI-agents)
+  - [Develop AI model](#Develop-AI-model)
+  <!-- - [Develop AI model](#implementation-tutorials) -->
+  - [AI agents](#AI-agents)
   - [Resources](#Resources)
   - [Miscellaneous](#Miscellaneous)
   <!-- - [Resources & Community](#resources--community) -->
@@ -64,38 +64,38 @@ Whether you're new to AI concepts or an experienced practitioner seeking AM-spec
 
 ## Educational Content Structure
 
-The educational content is organized into five comprehensive sections, each addressing different aspects of GenAI in AM:
+The educational content is organized into five comprehensive sections, each addressing different aspects of AI in AM:
 
-### Introduction to GenAI in AM
+### Introduction to AI in AM
 
-Foundational content for beginners to understand the basic concepts, terminology, and evolving landscape of GenAI applications in manufacturing. Also Technical deep dives into the foundation models and frameworks that power GenAI in AM:
+Foundational content for beginners to understand the basic concepts, terminology, and evolving landscape of AI applications in manufacturing. Also Technical deep dives into the foundation models and frameworks that power AI in AM:
 
-- **What is GenAI?** - Fundamentals of generative artificial intelligence, its capabilities, and core principles.Understanding large language models, diffusion models, and their adaptation for AM.
-- **Benefits in AM** - How generative AI enhances additive manufacturing through improved design, optimization, and production
-- **Current Landscape** - Overview of the present state of GenAI applications in the additive manufacturing industry
+- **What is AI?** - Fundamentals of artificial intelligence, including generative AI, its capabilities, and core principles.Understanding large language models, diffusion models, and their adaptation for AM.
+- **Benefits in AM** - How AI enhances additive manufacturing through improved design, optimization, and production
+- **Current Landscape** - Overview of the present state of AI applications in the additive manufacturing industry
 
-### Develop GenAI model
+### Develop AI model
 
-Step-by-step guides for practical implementation of GenAI in AM workflows:
+Step-by-step guides for practical implementation of AI in AM workflows:
 
 - **Task Selection** - Understanding and defining the problem scope and recognizing challenges for AM
 - **Model Selection** - Technical details of transformer architectures, attention mechanisms, and other relevant AI structures
-- **Benchmarking Metrics** - Methods for evaluating GenAI model performance in AM contexts
+- **Benchmarking Metrics** - Methods for evaluating AI model performance in AM contexts
 - **Prompt Engineering** - Techniques for crafting effective prompts for AM applications
 - **Fine-Tuning Approaches** - Methods for adapting general models to AM-specific tasks and domains
 
-### GenAI agents
+### AI agents
 
-GenAI agent application and  implementation in various aspects of additive manufacturing:
+AI agent application and  implementation in various aspects of additive manufacturing:
 
-- **Agent Foundations** - Fundamental concepts of GenAI agents and their potential in AM
-- **Process Optimization** - Case studies on using GenAI for improving AM process parameters
+- **Agent Foundations** - Fundamental concepts of AI agents and their potential in AM
+- **Process Optimization** - Case studies on using AI for improving AM process parameters
 - **Defect Detection** - Applications in quality control and anomaly detection
 - **Generative Design** - Examples of AI-driven design creation for AM constraints
 
 <!-- ### Core Technologies
 
-Technical deep dives into the foundation models, fine-tuning approaches, and frameworks that power GenAI in AM:
+Technical deep dives into the foundation models, fine-tuning approaches, and frameworks that power AI in AM:
 
 - **Foundation Models** - Understanding large language models, diffusion models, and their adaptation for AM
 - **Model Architectures** - Technical details of transformer architectures, attention mechanisms, and other relevant AI structures
@@ -105,22 +105,22 @@ Technical deep dives into the foundation models, fine-tuning approaches, and fra
 
 <!-- ### Case Studies & Applications
 
-Real-world examples of GenAI implementation in various aspects of additive manufacturing:
+Real-world examples of AI implementation in various aspects of additive manufacturing:
 
-- **Agent Foundations** - Fundamental concepts of GenAI agents and their potential in AM
-- **Process Optimization** - Case studies on using GenAI for improving AM process parameters
+- **Agent Foundations** - Fundamental concepts of AI agents and their potential in AM
+- **Process Optimization** - Case studies on using AI for improving AM process parameters
 - **Defect Detection** - Applications in quality control and anomaly detection
 - **Generative Design** - Examples of AI-driven design creation for AM constraints -->
 ### Resources
 
 Comprehensive collection of training, bencmarking, evelaution datasets connections:
 
-- **Datasets** - AM-specific datasets for training and fine-tuning GenAI models
+- **Datasets** - AM-specific datasets for training and fine-tuning AI models
 ### Miscellaneous
 
 Comprehensive collection of training resources, research papers, and community connections:
 
-- **Research Publications** - Key papers and academic resources at the intersection of GenAI and AM
+- **Research Publications** - Key papers and academic resources at the intersection of AI and AM
 - **Community Projects** - Open-source initiatives and collaborative efforts
 - **Learning Resources** - Additional educational materials and courses
 
@@ -128,19 +128,19 @@ Comprehensive collection of training resources, research papers, and community c
 
 Comprehensive collection of datasets, training resources, research papers, and community connections:
 
-- **Datasets** - AM-specific datasets for training and fine-tuning GenAI models
-- **Research Publications** - Key papers and academic resources at the intersection of GenAI and AM
+- **Datasets** - AM-specific datasets for training and fine-tuning AI models
+- **Research Publications** - Key papers and academic resources at the intersection of AI and AM
 - **Community Projects** - Open-source initiatives and collaborative efforts
 - **Learning Resources** - Additional educational materials and courses -->
 
 <!-- ### Implementation Tutorials
 
-Step-by-step guides for practical implementation of GenAI in AM workflows:
+Step-by-step guides for practical implementation of AI in AM workflows:
 
 - **Prompt Engineering** - Techniques for crafting effective prompts for AM applications
-- **Benchmarking Metrics** - Methods for evaluating GenAI model performance in AM contexts
+- **Benchmarking Metrics** - Methods for evaluating AI model performance in AM contexts
 - **Benchmarking Tools** - Software and frameworks for quantitative assessment of models
-- **Integration Guides** - Instructions for incorporating GenAI into existing AM software and workflows -->
+- **Integration Guides** - Instructions for incorporating AI into existing AM software and workflows -->
 
 ## Learning Paths
 
@@ -148,8 +148,8 @@ The platform offers structured learning paths for users with different levels of
 
 ### Beginner Path
 
-For those new to either GenAI or AM:
-1. Introduction to GenAI (What is GenAI?)
+For those new to either AI or AM:
+1. Introduction to AI (What is AI?)
 2. Benefits in Additive Manufacturing
 3. Current Landscape
 4. Basic Resources
@@ -166,7 +166,7 @@ For users with foundational knowledge seeking implementation guidance:
 
 For experienced practitioners looking to push boundaries:
 1. Advanced Model Architectures and Fine-Tuning
-2. Implementation of GenAI Agents
+2. Implementation of AI Agents
 3. Complex Case Studies
 4. Cutting-Edge Research
 
@@ -175,7 +175,7 @@ For experienced practitioners looking to push boundaries:
 ### Repository Structure
 
 ```
-GenAI_in_AM.github.io/
+AI_in_AM.github.io/
 ├── index.html                  # Main landing page
 ├── css/                        # Stylesheets
 │   ├── style.css               # Main styles
@@ -212,8 +212,8 @@ To work with this repository locally, you'll need:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/GenAI_in_AM.github.io.git
-   cd GenAI_in_AM.github.io
+   git clone https://github.com/yourusername/AI_in_AM.github.io.git
+   cd AI_in_AM.github.io
    ```
 
 2. **View the site locally**:
@@ -351,7 +351,7 @@ The platform is designed to serve different user types with tailored content:
 
 ### Beginners
 
-**For users new to GenAI and/or AM:**
+**For users new to AI and/or AM:**
 - Start with the Introduction section
 - Follow the beginner learning path
 - Utilize the glossary for terminology
@@ -359,13 +359,13 @@ The platform is designed to serve different user types with tailored content:
 
 **Example navigation path:**
 1. Home page
-2. "What is GenAI?" article
+2. "What is AI?" article
 3. "Benefits in AM" article
 4. Basic tutorials
 
 ### Experienced Engineers
 
-**For AM professionals looking to implement GenAI:**
+**For AM professionals looking to implement AI:**
 - Focus on implementation tutorials
 - Explore case studies relevant to specific applications
 - Utilize code examples and integration guides
@@ -472,7 +472,7 @@ Content and code contributions are accepted under this same license.
 
 ## Acknowledgments
 
-This platform is made possible through the contributions of researchers, educators, and practitioners in both the Generative AI and Additive Manufacturing fields:
+This platform is made possible through the contributions of researchers, educators, and practitioners in both the Artificial Intelligence and Additive Manufacturing fields:
 
 - **Academic Contributors**:
   - Paul Witherell
@@ -492,6 +492,6 @@ This platform is made possible through the contributions of researchers, educato
 For questions, suggestions, or collaboration opportunities:
 
 - **GitHub Issues**: For bug reports and feature requests
-- **Email**: [contact@genai-in-am.org](mailto:contact@genai-in-am.org)
-- **Twitter**: [@GenAI_AM](https://twitter.com/GenAI_AM)
-- **LinkedIn**: [GenAI in Additive Manufacturing Group](https://linkedin.com/in/genai-am)
+- **Email**: [contact@ai-in-am.org](mailto:contact@ai-in-am.org)
+- **Twitter**: [@AI_AM](https://twitter.com/AI_AM)
+- **LinkedIn**: [AI in Additive Manufacturing Group](https://linkedin.com/in/ai-am)
