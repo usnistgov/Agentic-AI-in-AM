@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="AM Datasets for GenAI Models - Comprehensive collection of datasets for training, testing, and benchmarking generative AI models in additive manufacturing">
-    <title>AM Datasets for GenAI Models | Resource</title>
-    
+    <meta name="description" content="AM Datasets for AI Models - Comprehensive collection of datasets for training, testing, and benchmarking generative AI models in additive manufacturing">
+    <title>AM Datasets for AI Models | Resource</title>
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/components.css">
     <link rel="stylesheet" href="../../css/responsive.css">
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,9 +21,9 @@
     <header class="navbar">
         <div class="container">
             <a href="../../index.html" class="logo">
-                <span>GenAI in AM</span>
+                <span>AI in AM</span>
             </a>
-            
+
             <div class="search-container">
                 <form class="search-form" role="search">
                     <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -34,17 +34,17 @@
                 </form>
                 <div class="search-results"></div>
             </div>
-            
+
             <button class="hamburger-menu" aria-label="Toggle menu">
                 <div></div>
                 <div></div>
                 <div></div>
             </button>
-            
+
             <nav>
                 <ul class="nav-links">
-                    <li><a href="../Develop GenAI models/index_nowrin.html">Develop GenAI model</a></li>
-                    <li><a href="../GenAI Agent/index.html">GenAI Agent</a></li>
+                    <li><a href="../Develop AI models/index_nowrin.html">Develop AI model</a></li>
+                    <li><a href="../AI Agent/index.html">AI Agent</a></li>
                     <li><a href="../AM_dataset/datasets.html">Resources</a></li>
                     <li><a href="../Miscellaneous/index.html">Miscellaneous</a></li>
                     <!-- <li><a href="../intro/index.html">Introduction</a></li>
@@ -75,7 +75,7 @@
             <div class="container">
                 <div class="hero-content">
                     <div class="hero-text">
-                        <h1>AM Datasets for GenAI Models</h1>
+                        <h1>AM Datasets for AI Models</h1>
                         <p>A comprehensive collection of datasets for training, testing, and benchmarking generative AI models across various aspects of additive manufacturing.</p>
                     </div>
                     <div class="hero-image">
@@ -93,14 +93,16 @@
                     <h2 class="toc-title">On This Page</h2>
                     <ul class="toc-list">
                         <li><a href="#overview">Overview</a></li>
-                        <li><a href="#benchmarking">Benchmarking Datasets</a></li>
-                        <li><a href="#training">Training Datasets</a></li>
-                        <li><a href="#agent-datasets">Datasets for Agents</a></li>
-                        <li><a href="#prompts">Prompt Collections</a></li>
+                        <li><a href="#golden-dataset">Golden Dataset Details</a></li>
+                        <li><a href="#benchmarking-role">Role in Benchmarking</a></li>
+                        <li><a href="#training-role">Role in Training</a></li>
+                        <li><a href="#agent-role">Role in Agentic AI</a></li>
+                        <li><a href="#prompt-role">Role in Prompt Engineering</a></li>
+                        <li><a href="#reuse">Data Reuse & Cross-Applicability</a></li>
                         <li><a href="#contribute">Contributing Data</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="section-navigation">
                     <h3>Related Resources</h3>
                     <ul class="toc-list">
@@ -115,38 +117,47 @@
             <div class="content">
                 <!-- Overview (Basic Level) -->
                 <section class="content-section" data-level="basic" id="overview">
-                    <h2>Dataset Repository Overview</h2>
-                    <!-- <span class="complexity-badge complexity-beginner">Beginner</span> -->
-                    
-                    <p>This section provides a collection of diverse AM datasets that can be used for training and benchmarking GenAI models. These datasets include design, pre-process, build and monitoring, post-process, and quality measurement data, which are essential for developing robust and accurate GenAI models. By leveraging these datasets, researchers can enhance model performance, improve predictive capabilities, and drive innovations in AM.</p>
-                    
+                    <h2>Golden Datasets in Additive Manufacturing AI</h2>
+
+                    <p>In additive manufacturing, high-quality datasets are essential for developing reliable AI models. A golden dataset is a high-quality, curated collection of data that serves as a reference standard for training, validating, and benchmarking AI models, especially in agentic AI systems. In the AM context, it encompasses diverse, representative samples that capture the full spectrum of AM processes, materials, geometries, and operational conditions. Their detailed characteristics and applications are explored in the sections below.</p>
+
                     <div class="key-points">
-                        <h3>Dataset Categories:</h3>
+                        <h3>Purpose of Golden Datasets:</h3>
                         <ul>
-                            <li><strong>Benchmarking Datasets:</strong> Standardized datasets for evaluating and comparing GenAI model performance</li>
-                            <li><strong>Training Datasets:</strong> Comprehensive collections for fine-tuning GenAI models for AM-specific tasks</li>
-                            <li><strong>Datasets for Agents:</strong> Structured data for developing and testing GenAI agent-based systems</li>
-                            <li><strong>Prompt Collections:</strong> Curated prompts and templates for effective GenAI interactions in AM contexts</li>
+                            <li><strong>Agentic AI:</strong> Support the development and evaluation of autonomous AI systems</li>
+                            <li><strong>Benchmarking:</strong> Enable standardized evaluation and comparison of AI models</li>
+                            <li><strong>Training:</strong> Provide the foundational data for model learning and fine-tuning</li>
+                            <li><strong>Prompt Engineering:</strong> Guide effective interactions between humans and AI models</li>
                         </ul>
                     </div>
-                    
-                    <p>Each dataset is provided with documentation on its structure, content, and recommended applications. For researchers and practitioners implementing GenAI in AM workflows, these resources provide a solid foundation for model development and evaluation.</p>
+
+                    <p>Each golden dataset is characterized by its specific data formats, structure, and intended applications. Understanding the role of these datasets helps researchers and practitioners select the right resources for their AI in AM workflows.</p>
+
+                    <div class="overview-diagram">
+                        <img src="../../images/updated_diagram.png" alt="AM Context Golden Dataset with Agentic AI Stack and Layers" width="600" height="400">
+                        <p class="diagram-caption">Illustration showing the relationship between AM context, golden datasets, agentic AI stack layers, and various control knobs for AI system configuration.</p>
+                    </div>
                 </section>
-                
-                <!-- Benchmarking Datasets (Basic Level) -->
-                <section class="content-section" data-level="basic" id="benchmarking">
-                    <h2>Benchmarking Datasets</h2>
-                    <!-- <span class="complexity-badge complexity-beginner">Beginner</span> -->
-                    
-                    <p>Benchmarking datasets are specifically designed to evaluate and compare the performance of different GenAI models on standardized AM tasks. These datasets include reference problems, expected outputs, and evaluation metrics to ensure consistent assessment.</p>
-                    
+
+
+
+
+
+                <!-- Role of Golden Datasets for Benchmarking (Basic Level) -->
+                <section class="content-section" data-level="basic" id="benchmarking-role">
+                    <h2>Role of Golden Datasets for Benchmarking</h2>
+
+                    <p>Golden datasets for benchmarking provide standardized reference points for evaluating and comparing the performance of different AI models on consistent AM tasks. These datasets enable reproducible research and objective assessment of model capabilities.</p>
+
+                    <p><strong>Typical Data Formats:</strong> JSON, CSV, STL, OBJ, STEP, HDF5, Images, XML</p>
+
                     <div class="dataset-card">
                         <div class="dataset-header">
-                            <h3>AM-GenAI Benchmark Dataset</h3>
+                            <h3>AM-AI Benchmark Dataset</h3>
                             <!-- <span class="dataset-badge">Public</span> -->
                         </div>
                         <div class="dataset-body">
-                            <p>A comprehensive benchmark dataset for evaluating GenAI models across common AM tasks including design optimization, parameter selection, and defect classification.</p>
+                            <p>A comprehensive benchmark dataset for evaluating AI models across common AM tasks including design optimization, parameter selection, and defect classification.</p>
                             <div class="dataset-details">
                                 <div class="detail-item">
                                     <span class="detail-label">Size:</span>
@@ -154,11 +165,11 @@
                                 </div>
                                 <div class="detail-item">
                                     <span class="detail-label">Formats:</span>
-                                    <span class="detail-value">CSV</span>
+                                    <span class="detail-value">JSON, CSV, STL</span>
                                 </div>
                                 <div class="detail-item">
                                     <span class="detail-label">Tasks:</span>
-                                    <span class="detail-value">Design, Pre-Process, MOnitoring, Post process and Quality Control</span>
+                                    <span class="detail-value">Design, Process Parameters, Quality Control</span>
                                 </div>
                             </div>
                             <div class="dataset-links">
@@ -167,7 +178,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- <div class="dataset-card">
                         <div class="dataset-header">
                             <h3>NIST AM Process Benchmark</h3>
@@ -196,7 +207,6 @@
                         </div>
                     </div> -->
 
-                    
                     <h3>Using Benchmarking Datasets</h3>
                     <p>When utilizing these benchmarking datasets, consider the following best practices:</p>
                     <ul>
@@ -206,15 +216,18 @@
                         <li>Consider both quantitative metrics and qualitative assessments</li>
                         <li>Document any preprocessing or modifications to the dataset</li>
                     </ul>
+
+                    <p><strong>Reuse Potential:</strong> Benchmarking datasets often contain valuable data that can be repurposed for training tasks, particularly the NIST AM Process Benchmark dataset which includes comprehensive process parameter data suitable for machine learning model training.</p>
                 </section>
-                
-                <!-- Training Datasets (Intermediate Level) -->
-                <section class="content-section" data-level="intermediate" id="training">
-                    <h2>Training Datasets</h2>
-                    <!-- <span class="complexity-badge complexity-intermediate">Intermediate</span> -->
-                    
-                    <p>Training datasets are comprehensive collections designed for fine-tuning GenAI models for AM-specific tasks. These datasets include diverse examples that help models learn the particular characteristics and requirements of additive manufacturing processes.</p>
-                    
+
+                <!-- Role of Golden Datasets for Training (Intermediate Level) -->
+                <section class="content-section" data-level="intermediate" id="training-role">
+                    <h2>Role of Golden Datasets for Training</h2>
+
+                    <p>Golden datasets for training provide the comprehensive data collections necessary for teaching AI models the patterns, relationships, and characteristics specific to additive manufacturing processes. These datasets enable models to learn from real-world examples and generalize to new AM scenarios.</p>
+
+                    <p><strong>Typical Data Formats:</strong> STL, OBJ, STEP, JSON, CSV, Images, XML annotations</p>
+
                     <div class="dataset-card">
                         <div class="dataset-header">
                             <h3>AM Design Corpus</h3>
@@ -242,39 +255,27 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- <div class="dataset-card">
+
+                    <div class="dataset-card">
                         <div class="dataset-header">
                             <h3>LPBF Process Parameter Dataset</h3>
-                            <span class="dataset-badge">Public with Registration</span>
+                            <!-- <span class="dataset-badge">Public with Registration</span> -->
                         </div>
                         <div class="dataset-body">
                             <p>Comprehensive dataset of laser powder bed fusion process parameters and resulting part characteristics, covering multiple materials and machine configurations.</p>
                             <div class="dataset-details">
-                                <div class="detail-item">
-                                    <span class="detail-label">Size:</span>
-                                    <span class="detail-value">8.5 GB</span>
-                                </div>
-                                <div class="detail-item">
-                                    <span class="detail-label">Formats:</span>
-                                    <span class="detail-value">CSV, JSON, Images</span>
-                                </div>
-                                <div class="detail-item">
-                                    <span class="detail-label">Records:</span>
-                                    <span class="detail-value">100,000+ parameter combinations</span>
-                                </div>
                             </div>
                             <div class="dataset-links">
-                                <a href="#" class="btn">View Details</a>
-                                <a href="#" class="btn btn-outline">Register for Access</a>
+                                <!-- <a href="#" class="btn">View Details</a> -->
+                                <!-- <a href="#" class="btn btn-outline">Register for Access</a> -->
                             </div>
                         </div>
-                    </div> -->
-                    
+                    </div>
+
                     <div class="dataset-card">
                         <div class="dataset-header">
                             <h3>AM Defect Classification Dataset</h3>
-                            <span class="dataset-badge">Public</span>
+                            <!-- <span class="dataset-badge">Public</span> -->
                         </div>
                         <div class="dataset-body">
                             <p>Labeled image dataset of common AM defects across multiple process types, with annotations on defect type, severity, and probable causes.</p>
@@ -298,88 +299,48 @@
                             </div>
                         </div>
                     </div>
+
+                    <h3>Best Practices for Training Data Usage</h3>
+                    <p>When using these datasets for model training:</p>
+                    <ul>
+                        <li>Ensure proper data preprocessing and normalization</li>
+                        <li>Split data appropriately into training, validation, and test sets</li>
+                        <li>Consider data augmentation techniques to increase dataset diversity</li>
+                        <li>Monitor for overfitting and use regularization techniques</li>
+                        <li>Validate model performance on unseen data</li>
+                    </ul>
+
+                    <p><strong>Reuse Potential:</strong> Training datasets like the AM Design Corpus can also serve benchmarking purposes for evaluating generative design models, while the LPBF Process Parameter Dataset shares overlap with benchmarking datasets for process optimization tasks.</p>
                 </section>
-                
-                <!-- Datasets for Agents (Advanced Level) -->
-                <section class="content-section" data-level="advanced" id="agent-datasets">
-                    <h2>Datasets for Agents</h2>
-                    <!-- <span class="complexity-badge complexity-advanced">Advanced</span> -->
-                    
-                    <p>These specialized datasets are designed for developing and evaluating GenAI agent-based systems in AM environments. They include structured formats for agent interactions, decision-making scenarios, and evaluation frameworks.</p>
-                    
+
+                <!-- Role of Golden Datasets for Agentic AI (Advanced Level) -->
+                <section class="content-section" data-level="advanced" id="agent-role">
+                    <h2>Role of Golden Datasets for Agentic AI</h2>
+
+                    <p>Golden datasets for agentic AI provide structured data representations of AM workflows, decision-making processes, and human-agent interactions necessary for developing and evaluating autonomous AI systems in additive manufacturing environments.</p>
+
+                    <p><strong>Typical Data Formats:</strong> JSON, YAML, CSV, Text</p>
+
                     <div class="dataset-card">
-                        <div class="dataset-header">
-                            <h3>AM Agent Interaction Dataset</h3>
-                            <!-- <span class="dataset-badge">Public with Citation</span> -->
-                        </div>
-                        <div class="dataset-body">
-                            <p>Collection of agent-human interactions in AM contexts, providing examples of effective communication, problem-solving, and decision-making for training agent-based systems.</p>
-                            <div class="dataset-details">
-                                <div class="detail-item">
-                                    <span class="detail-label">Size:</span>
-                                    <span class="detail-value">1.8 GB</span>
-                                </div>
-                                <div class="detail-item">
-                                    <span class="detail-label">Formats:</span>
-                                    <span class="detail-value">JSON, Text</span>
-                                </div>
-                                <div class="detail-item">
-                                    <span class="detail-label">Interactions:</span>
-                                    <span class="detail-value">5,000+ dialog sequences</span>
-                                </div>
-                            </div>
-                            <div class="dataset-links">
-                                <!-- <a href="#" class="btn">View Details</a> -->
-                                <!-- <a href="#" class="btn btn-outline">Access Dataset</a> -->
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- <div class="dataset-card">
-                        <div class="dataset-header">
-                            <h3>AM Manufacturing Workflow Dataset</h3>
-                            <span class="dataset-badge">Public</span>
-                        </div>
-                        <div class="dataset-body">
-                            <p>Structured data representing complete AM workflows from design to quality control, including decision points, actions, and outcomes for agent training.</p>
-                            <div class="dataset-details">
-                                <div class="detail-item">
-                                    <span class="detail-label">Size:</span>
-                                    <span class="detail-value">3.6 GB</span>
-                                </div>
-                                <div class="detail-item">
-                                    <span class="detail-label">Formats:</span>
-                                    <span class="detail-value">JSON, YAML, CSV</span>
-                                </div>
-                                <div class="detail-item">
-                                    <span class="detail-label">Workflows:</span>
-                                    <span class="detail-value">250 complete process workflows</span>
-                                </div>
-                            </div>
-                            <div class="dataset-links">
-                                <a href="#" class="btn">View Details</a>
-                                <a href="#" class="btn btn-outline">Download</a>
-                            </div>
-                        </div>
-                    </div> -->
-                    
-                    <h3>Agent Evaluation Frameworks</h3>
-                    <p>In addition to the datasets, we provide evaluation frameworks for assessing agent performance in AM contexts:</p>
+
                     <ul>
                         <li><strong>Decision Quality Metrics:</strong> Evaluating the effectiveness of agent decisions against expert benchmarks</li>
                         <li><strong>Interaction Quality Assessment:</strong> Measuring the clarity and usefulness of agent communications</li>
-                        <li><strong>Process Optimization Evaluation:</strong> Assessing improvements in manufacturing outcomes</li>
+                        <li><strong>Process Optimization Evaluation:</span> Assessing improvements in manufacturing outcomes</li>
                         <li><strong>Adaptation Capability Testing:</strong> Measuring how effectively agents adapt to novel scenarios</li>
                     </ul>
+
+                    <p><strong>Reuse Potential:</strong> Agent interaction datasets can inform the development of better training datasets by identifying common challenges and decision points in AM workflows, while workflow datasets can be adapted for benchmarking agent planning capabilities.</p>
                 </section>
-                
-                <!-- Prompt Collections (Intermediate Level) -->
-                <section class="content-section" data-level="intermediate" id="prompts">
-                    <h2>Prompt Collections</h2>
-                    <!-- <span class="complexity-badge complexity-intermediate">Intermediate</span> -->
-                    
-                    <p>This section provides guidelines and collections for structuring effective prompts when working with GenAI models in AM contexts. Well-designed prompts are crucial for getting desired outputs from GenAI models.</p>
-                    
+
+                <!-- Role of Golden Datasets for Prompt Engineering (Intermediate Level) -->
+                <section class="content-section" data-level="intermediate" id="prompt-role">
+                    <h2>Role of Golden Datasets for Prompt Engineering</h2>
+
+                    <p>Golden datasets for prompt engineering provide curated collections of effective prompts and prompt-engineering techniques specifically designed for additive manufacturing contexts. These datasets help users structure effective interactions with AI models to achieve desired outputs in AM applications.</p>
+
+                    <p><strong>Typical Data Formats:</strong> Text, JSON, Markdown</p>
+
                     <div class="dataset-card">
                         <div class="dataset-header">
                             <h3>AM Prompt Engineering Collection</h3>
@@ -402,12 +363,12 @@
                                 </div>
                             </div>
                             <div class="dataset-links">
-                                <a href="#" class="btn">View Details</a>
-                                <a href="#" class="btn btn-outline">Access Collection</a>
+                                <!-- <a href="#" class="btn">View Details</a> -->
+                                <!-- <a href="#" class="btn btn-outline">Access Collection</a> -->
                             </div>
                         </div>
                     </div>
-                    
+
                     <h3>Prompt Engineering Techniques</h3>
                     <p>The prompt collections include examples of five popular prompt engineering methods applied to AM-specific tasks:</p>
                     <ul>
@@ -417,37 +378,93 @@
                         <li><strong>ReAct:</strong> Prompts that combine reasoning and actions in a structured format</li>
                         <li><strong>Directional Stimulus:</strong> Prompts that guide the model toward specific types of responses</li>
                     </ul>
-                    
+
                     <p>For more information on effective prompt engineering for AM, see our <a href="../tutorials/prompt-engineering.html">Prompt Engineering Tutorial</a>.</p>
+
+                    <p><strong>Reuse Potential:</strong> Prompt engineering datasets can support training efforts by providing examples of effective query formulations for fine-tuning language models, and can enhance benchmarking by enabling standardized evaluation of model responses to AM-specific prompts.</p>
                 </section>
-                
-                <!-- Contributing Data (Basic Level) -->
-                <section class="content-section" data-level="basic" id="contribute">
-                    <h2>Contributing Data</h2>
-                    <!-- <span class="complexity-badge complexity-beginner">Beginner</span> -->
-                    
-                    <p>The AM dataset repository is a community resource that welcomes contributions from researchers and practitioners. By sharing your datasets, you can help advance the field of GenAI in additive manufacturing.</p>
-                    
-                    <h3>Contribution Guidelines</h3>
-                    <p>To contribute datasets to the repository, please follow these guidelines:</p>
-                    <ul>
-                        <li>Provide clear documentation of dataset structure and content</li>
-                        <li>Include information on data collection methodology</li>
-                        <li>Specify any licensing or usage restrictions</li>
-                        <li>Remove any sensitive or proprietary information</li>
-                        <li>Include suggested applications and example usage</li>
-                    </ul>
-                    
-                    <div class="cta-box">
-                        <h3>Explore Related Resources</h3>
-                        <p>Learn how to effectively use these datasets with our tutorials on benchmarking and evaluation:</p>
-                        <div class="cta-buttons">
-                            <a href="../Develop GenAI models/benchmarking-metrics.html" class="btn">Benchmarking Metrics</a>
-                            <a href="../tutorials/benchmarking-tools.html" class="btn btn-outline">Benchmarking Tools</a>
+
+                <!-- Data Reuse & Cross-Applicability -->
+                <section class="content-section" data-level="basic" id="reuse">
+                    <h2>Data Reuse & Cross-Applicability</h2>
+
+                    <p>Many golden datasets in the AM AI repository possess characteristics that make them valuable across multiple application categories. Understanding these overlaps can help researchers maximize the utility of their data resources and reduce redundancy in data collection efforts.</p>
+
+                    <div class="key-points">
+                        <h3>Common Reuse Patterns:</h3>
+                        <ul>
+                            <li><strong>Benchmarking ↔ Training:</strong> Process parameter and quality control datasets often serve dual purposes</li>
+                            <li><strong>Training ↔ Agentic AI:</strong> Design and workflow datasets support both model training and agent behavior learning</li>
+                            <li><strong>Benchmarking ↔ Agentic AI:</strong> Interaction datasets can benchmark agent communication capabilities</li>
+                            <li><strong>All Categories ↔ Prompt Engineering:</strong> Prompt collections enhance effectiveness across all AI applications</li>
+                        </ul>
+                    </div>
+
+                    <div class="dataset-card">
+                        <div class="dataset-header">
+                            <h3>High-Reuse Dataset Examples</h3>
+                            <!-- <span class="dataset-badge">Multi-Purpose</span> -->
+                        </div>
+                        <div class="dataset-body">
+                            <p>Certain datasets in our collection are particularly valuable for multiple AI applications due to their comprehensive nature and versatile data structures.</p>
+                            <div class="dataset-details">
+                                <div class="detail-item">
+                                    <span class="detail-label">LPBF Process Parameter Dataset:</span>
+                                    <span class="detail-value">Useful for benchmarking process optimization models, training ML models for parameter prediction, and evaluating agent decision-making in process control scenarios</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">AM Design Corpus:</span>
+                                    <span class="detail-value">Supports benchmarking generative design models, training diffusion and GAN models for 3D generation, and providing design alternatives for agent-based workflow planning</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">AM Manufacturing Workflow Dataset:</span>
+                                    <span class="detail-value">Enables benchmarking agent planning capabilities, training sequential decision-making models, and evaluating end-to-end process optimization agents</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+                    <h3>Guidelines for Data Reuse</h3>
+                    <p>When considering reuse of datasets across categories:</p>
+                    <ul>
+                        <li>Verify that the dataset contains appropriate data types and annotations for the target application</li>
+                        <li>Check licensing and usage restrictions to ensure compliance across intended uses</li>
+                        <li>Consider whether additional processing or annotation is needed for the new application</li>
+                        <li>Document any adaptations made to the dataset for reuse purposes</li>
+                        <li>Validate that performance metrics remain meaningful in the new context</li>
+                    </ul>
                 </section>
-                
+
+
+                <!-- Example: AM Lifecycle Golden Dataset -->
+                <section class="content-section" data-level="basic" id="lifecycle-example">
+                    <h2>Example: Golden Dataset Across the AM Lifecycle</h2>
+
+                    <p>To illustrate how a golden dataset manifests across different stages of additive manufacturing, here's a concrete example showing the types of data typically included:</p>
+
+                    <h3>What a Golden Dataset Looks Like for AM Lifecycle:</h3>
+                    <ul>
+                        <li><strong>Design:</strong> <a href="https://github.com/usnistgov/AM-dataset-for-GenAI/tree/main/Design" target="_blank">Design dataset</a> – CAD models, material specifications, functional requirements.</li>
+                        <li><strong>Process Planning:</strong> <a href="https://github.com/usnistgov/AM-dataset-for-GenAI/tree/main/pre-process" target="_blank">Pre‑process dataset</a> – sliced layers, support structures, scan strategies.</li>
+                        <li><strong>Build &amp; Monitoring:</strong>
+                            <ul>
+                                <li><a href="https://github.com/usnistgov/AM-dataset-for-GenAI/tree/main/monitoring" target="_blank">Process monitoring</a> – sensor logs (temperature, melt‑pool, laser power).</li>
+                                <li><a href="https://github.com/usnistgov/AM-dataset-for-GenAI/tree/main/Melt%20pool%20image" target="_blank">Melt‑pool images</a> – high‑speed imaging of the melt pool.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Post‑Process:</strong>
+                            <ul>
+                                <li><a href="https://github.com/usnistgov/AM-dataset-for-GenAI/tree/main/Post-process" target="_blank">Post‑process</a> – heat treatment, machining, surface finishing.</li>
+                                <li><a href="https://github.com/usnistgov/AM-dataset-for-GenAI/tree/main/porosity%20image" target="_blank">Porosity images</a> – XCT or microscopy images showing pores.</li>
+                                <li><a href="https://github.com/usnistgov/AM-dataset-for-GenAI/tree/main/Quality%20measurement" target="_blank">Quality measurement</a> – mechanical testing, dimensional accuracy, surface roughness.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Feedback Loops:</strong> Records of human‑in‑the‑loop corrections and agent decisions that can be used for reinforcement learning.</li>
+                    </ul>
+
+                    <p><em>This example demonstrates how a comprehensive golden dataset spans the entire AM lifecycle, providing valuable data for training, validating, and benchmarking AI systems at every stage.</em></p>
+                </section>
+
                 <!-- Pagination -->
                 <div class="pagination">
                     <a href="index.html" class="pagination-item pagination-prev">
@@ -460,7 +477,7 @@
                             <div class="pagination-title">Resources</div>
                         </div>
                     </a>
-                    
+
                     <a href="tools.html" class="pagination-item pagination-next">
                         <div>
                             <div class="pagination-label">Next</div>
@@ -474,7 +491,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- Content Depth Indicator -->
         <div class="content-depth-indicator">
             <!-- Markers will be generated by JavaScript -->
@@ -486,15 +503,15 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>GenAI in Additive Manufacturing</h3>
+                    <h3>AI in Additive Manufacturing</h3>
                     <p>An educational resource designed to introduce and guide users into generative AI applications within the additive manufacturing/3D printing industry.</p>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Quick Links</h3>
                     <ul class="footer-links">
-                        <li><a href="../Develop GenAI models/index_nowrin.html">Develop GenAI model</a></li>
-                        <li><a href="../GenAI Agent/index.html">GenAI Agent</a></li>
+                        <li><a href="../Develop AI models/index_nowrin.html">Develop AI model</a></li>
+                        <li><a href="../AI Agent/index.html">AI Agent</a></li>
                         <li><a href="../AM_dataset/datasets.html">Resources</a></li>
                         <li><a href="../Miscellaneous/index.html">Miscellaneous</a></li>
                         <!-- <li><a href="../intro/index.html">Introduction</a></li>
@@ -504,7 +521,7 @@
                         <li><a href="../resources/index.html">Resources</a></li> -->
                     </ul>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>References</h3>
                     <ul class="footer-links">
@@ -512,9 +529,9 @@
                     </ul>
                 </div>
             </div>
-            
+
             <div class="copyright">
-                <p>&copy; <script>document.write(new Date().getFullYear())</script> GenAI in Additive Manufacturing. All rights reserved.</p>
+                <p>&copy; <script>document.write(new Date().getFullYear())</script> AI in Additive Manufacturing. All rights reserved.</p>
             </div>
         </div>
     </footer>
