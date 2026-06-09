@@ -1,6 +1,6 @@
 # AI in Additive Manufacturing
 
-![AI in AM](images/header-image.jpg)
+![AI in AM](images/header-image1.jpg)
 
 ## Executive Summary
 
