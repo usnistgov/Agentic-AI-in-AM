@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Introduction to Generative AI (AI) in Additive Manufacturing - Learn foundational concepts of AI in 3D printing">
-    <title>Introduction to AI in Additive Manufacturing</title>
-    
+    <meta name="description" content="Develop AI model | AI in AM">
+    <title>Develop AI model | AI in AM</title>
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/components.css">
     <link rel="stylesheet" href="../../css/responsive.css">
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,7 @@
             <a href="../../index.html" class="logo">
                 <span>AI in AM</span>
             </a>
-            
+
             <div class="search-container">
                 <form class="search-form" role="search">
                     <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -34,24 +34,19 @@
                 </form>
                 <div class="search-results"></div>
             </div>
-            
+
             <button class="hamburger-menu" aria-label="Toggle menu">
                 <div></div>
                 <div></div>
                 <div></div>
             </button>
-            
+
             <nav>
                 <ul class="nav-links">
-                    <li><a href="../Develop AI models/index_nowrin.html">Develop AI model</a></li>
-                    <li><a href="../AI Agent/index.html">AI Agent</a></li>
-                    <li><a href="../AM_dataset/datasets.html">Resources</a></li>
-                    <li><a href="../Miscellaneous/index.html">Miscellaneous</a></li>
-                    <!-- <li><a href="../intro/index.html" class="active">Introduction</a></li>
-                    <li><a href="../core-technologies/index.html">Core Technologies</a></li>
-                    <li><a href="../tutorials/index.html">Tutorials</a></li>
-                    <li><a href="../case-studies/index.html">Case Studies</a></li>
-                    <li><a href="../resources/index.html">Resources</a></li> -->
+                    <li><a href="../Agentic AI/index.html">Agentic AI For AM</a></li>
+                    <li><a href="../Develop AI models/index_nowrin.html">AI Models Development</a></li>
+                    <li><a href="../AI Agent/index.html">AI agent</a></li>
+                    <li><a href="../AM_dataset/datasets.html">Data for AI</a></li>
                 </ul>
             </nav>
         </div>
@@ -69,16 +64,16 @@
             </div>
         </div>
 
-        <!-- Hero Section (Basic Introduction) -->
+        <!-- Hero Section -->
         <section class="hero">
             <div class="container">
                 <div class="hero-content">
                     <div class="hero-text">
-                        <h1>Developing AI Model for AM</h1>
-                        <p>In order to explore and develop foundation models for AM, researchers should follow a structured approach.</p>
+                        <h1>Develop AI Models for Additive Manufacturing</h1>
+                        <p>Learn how to create and train AI models specifically for additive manufacturing applications.</p>
                     </div>
                     <div class="hero-image">
-                        <img src="../../images/header-image.jpg" alt="AI and 3D Printing" width="500" height="300">
+                        <img src="../../images/developing-ai-models.webp" alt="Developing AI Models for AM" width="500" height="300">
                     </div>
                 </div>
             </div>
@@ -91,205 +86,222 @@
                 <div class="toc">
                     <h2 class="toc-title">In This Section</h2>
                     <ul class="toc-list">
-                        <li><a href="#what-is-genai">Identifying the AM Task</a></li>
-                        <li><a href="#benefits-in-am">Selecting a Base Model</a></li>
-                        <li><a href="#current-landscape">Assessing the Base Model</a></li>
-                        <li><a href="#key-concepts">Prompt Engineering</a></li>
-                        <li><a href="#getting-started">Fine-Tuning</a></li>
-                    </ul>
-                </div>
-                
-                <div class="section-navigation">
-                    <h3>Explore This Topic</h3>
-                    <ul class="toc-list">
-                        <li><a href="what-is-genai.html">What is AI?</a></li>
-                        <li><a href="benefits-in-am_new.html">Benefits in AM</a></li>
-                        <li><a href="current-landscape.html">Current Landscape</a></li>
+                        <li><a href="#fundamentals">AI Model Fundamentals</a></li>
+                        <li><a href="#data-preparation">Data Preparation</a></li>
+                        <li><a href="#model-selection">Model Selection & Training</a></li>
+                        <li><a href="#deployment">Deployment & Monitoring</a></li>
                     </ul>
                 </div>
             </aside>
 
             <!-- Main Content Area -->
             <div class="content">
-                <!-- Basic Introduction (Top Level) -->
-                <section class="content-section" data-level="basic" id="what-is-genai">
-                    <h2>1. Identifying the AM Task</h2>
-                    <!-- <span class="complexity-badge complexity-beginner">Beginner</span> -->
-                    
-                    <p>The first step is defining the problem scope: recognizing challenges in AM that could benefit from AI-driven solutions, such as design optimization, process parameter tuning, or defect detection.</p>
-                    
-                    <!-- <div class="key-points">
-                        <h3>Key Points:</h3>
+                <!-- Introduction -->
+                <section class="content-section" data-level="basic" id="introduction">
+                    <h2>Introduction to AI Model Development for AM</h2>
+                    <span class="complexity-badge complexity-beginner">Beginner</span>
+
+                    <p>Developing effective AI models for additive manufacturing requires understanding both AI/ML fundamentals and the specific challenges and opportunities in the AM domain. This section covers the essential concepts and workflows for creating AI models that can enhance various aspects of the additive manufacturing process.</p>
+
+                    <div class="key-points">
+                        <h3>What You'll Learn:</h3>
                         <ul>
-                            <li><strong>Content Creation:</strong> Unlike traditional AI that focuses on classification or prediction, AI can create entirely new content.</li>
-                            <li><strong>Foundation Models:</strong> Large pre-trained models that serve as the basis for various generative applications.</li>
-                            <li><strong>Multimodal Capabilities:</strong> Modern AI can work across different types of data (text, images, 3D models).</li>
-                            <li><strong>Expanding Applications:</strong> Rapidly growing use cases across industries, particularly in design and manufacturing.</li>
+                            <li><strong>AI Fundamentals:</strong> Core concepts of machine learning and deep learning relevant to AM applications</li>
+                            <li><strong>Data Requirements:</strong> Types of data needed for AM AI models and how to collect/prepare them</li>
+                            <li><strong>Model Selection:</strong> Choosing appropriate algorithms for different AM tasks</li>
+                            <li><strong>Implementation:</strong> Steps to develop, train, and deploy AI models in AM workflows</li>
                         </ul>
-                    </div> -->
-                    
-                    <a href="benchmarking-metrics.html" class="btn">Benchmatking Metrics</a>
-                </section>
-                
-                <!-- Benefits in AM (Top Level) -->
-                <section class="content-section" data-level="basic" id="benefits-in-am">
-                    <h2>2. Selecting a Base Model</h2>
-                    <!-- <span class="complexity-badge complexity-beginner">Beginner</span> -->
-                    
-                    <p>Choosing the right AI model is essential. Options include Large Language Models (LLMs), diffusion models, and specialized tools like GPT-4o and DALL·E, each with different capabilities for AM applications.</p>
-                    
-                    <!-- <div class="card-grid">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3 class="card-title">Design Optimization</h3>
-                                <p class="card-text">AI-driven design tools can create optimized structures that would be impossible to conceive through traditional methods, reducing weight while maintaining structural integrity.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="card">
-                            <div class="card-body">
-                                <h3 class="card-title">Process Parameter Optimization</h3>
-                                <p class="card-text">AI can predict optimal printing parameters based on material properties and design requirements, reducing trial and error.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="card">
-                            <div class="card-body">
-                                <h3 class="card-title">Defect Detection</h3>
-                                <p class="card-text">AI systems can identify potential defects during the printing process, enabling real-time adjustments and quality assurance.</p>
-                            </div>
-                        </div>
-                    </div> -->
-                    
-                    <a href="../core-technologies/foundation-models.html" class="btn">Benchmarking Tools</a>
-                </section>
-                
-                <!-- Current Landscape (Mid Level) -->
-                <section class="content-section" data-level="intermediate" id="current-landscape">
-                    <h2>3. Assessing the Base Model</h2>
-                    <!-- <span class="complexity-badge complexity-intermediate">Intermediate</span> -->
-                    
-                    <p>Evaluating the selected model's initial performance through zero-shot prompting before considering more advanced approaches like fine-tuning.</p>
-                    
-                    <!-- <h3>Foundation Models in AM</h3>
-                    <p>Large pre-trained deep learning models trained on vast datasets using self-supervision can be fine-tuned for various AM-specific tasks, including:</p>
-                    <ul>
-                        <li>Text-to-CAD generation (e.g., creating 3D models from textual descriptions)</li>
-                        <li>Material property prediction</li>
-                        <li>Process parameter optimization</li>
-                        <li>Defect classification and detection</li>
-                    </ul>
-                    
-                    <h3>Generative AI Models in AM</h3>
-                    <p>Subsets of foundation models focused specifically on content creation in the AM space include:</p>
-                    <ul>
-                        <li>3D model generators (similar to how DALL-E works for images, but for 3D objects)</li>
-                        <li>Topology optimization systems</li>
-                        <li>Process simulation models</li>
-                        <li>Material design systems</li>
-                    </ul> -->
-                    
-                    <!-- <a href="current-landscape.html" class="btn">View Full Landscape Analysis</a> -->
-                </section>
-                
-                <!-- Key Concepts (Advanced Level) -->
-                <section class="content-section" data-level="advanced" id="key-concepts">
-                    <h2>4. Prompt Engineering</h2>
-                    <!-- <span class="complexity-badge complexity-advanced">4. Prompt Engineering</span> -->
-                    
-                    <p>If zero-shot performance is insufficient, advanced prompt techniques like few-shot prompting, Chain-of-Thought (CoT), and Retrieval-Augmented Generation (RAG) are explored.</p>
-                    
-                    <!-- <div class="two-column">
-                        <div>
-                            <h3>Self-Supervision and Pre-Training</h3>
-                            <p>The process by which foundation models learn from vast unlabeled datasets before specific fine-tuning. This allows models to develop general representations that can be adapted to specialized tasks.</p>
-                            
-                            <h3>Transfer Learning</h3>
-                            <p>The technique of applying knowledge gained from one problem to a different but related problem. In AM, this might involve using image recognition models trained on general objects to identify specific AM defects.</p>
-                        </div>
-                        
-                        <div>
-                            <h3>Fine-Tuning</h3>
-                            <p>The process of adapting a pre-trained model to a specific domain or task by training it on domain-specific data. For AM, this involves exposing models to AM-specific datasets.</p>
-                            
-                            <h3>Prompt Engineering</h3>
-                            <p>The practice of designing input prompts that effectively guide AI models to produce desired outputs. Critical for extracting manufacturing-specific knowledge from general-purpose models.</p>
-                        </div>
                     </div>
-                    
-                    <div class="code-block">
-                        <div class="code-header">
-                            <span>Example: Prompt for AM Design</span>
-                            <button class="copy-button">Copy</button>
+                </section>
+
+                <!-- AI Model Fundamentals -->
+                <section class="content-section" data-level="basic" id="fundamentals">
+                    <h2>AI Model Fundamentals</h2>
+                    <span class="complexity-badge complexity-beginner">Beginner</span>
+
+                    <p>Before diving into AM-specific applications, it's important to understand the fundamental concepts of artificial intelligence and machine learning that form the basis for all AI model development.</p>
+
+                    <div class="two-column">
+                        <div>
+                            <h3>Types of Machine Learning</h3>
+                            <p>Understanding the different approaches to machine learning is crucial for selecting the right technique for your AM application:</p>
+                            <ul>
+                                <li><strong>Supervised Learning:</strong> Models learn from labeled training data to make predictions or decisions. Common for quality prediction, process optimization, and defect detection in AM.</li>
+                                <li><strong>Unsupervised Learning:</strong> Models find patterns in unlabeled data. Useful for anomaly detection, clustering similar parts or processes, and discovering hidden structures in AM data.</li>
+                                <li><strong>Reinforcement Learning:</strong> Models learn through trial and error interactions with an environment. Applied to real-time process control and optimization in AM systems.</li>
+                                <li><strong>Deep Learning:</strong> Neural networks with multiple layers that can automatically learn hierarchical representations of data. Particularly effective for image-based AM applications like defect detection from scan data.</li>
+                            </ul>
                         </div>
-                        <div class="code-content">
-                            <pre><code>Design a lightweight bracket for a 3D printer with the following specifications:
-- Must support a load of 5kg
-- Maximum dimensions: 10cm x 5cm x 3cm
-- Material: PLA
-- Optimize for minimal material usage while maintaining structural integrity
-- Include mounting holes (4mm diameter) at each corner</code></pre>
-                        </div>
-                    </div>
-                </section> -->
-                <a href=../tutorials/prompt-engineering.html" class="btn">Understanding Prompt Engineering</a>
-                
-                <!-- Getting Started (Mid Level) --> 
-                <section class="content-section" data-level="intermediate" id="getting-started">
-                    <h2>5. Fine-Tuning</h2>
-                    <!-- <span class="complexity-badge complexity-intermediate">Intermediate</span> -->
-                    
-                    <p>When prompt engineering is insufficient, model fine-tuning with AM-specific datasets is required for improved accuracy and domain adaptation.</p>
-                    <a href="Fine_tune.html" class="btn">Understanding fine-tune Approach</fine-tune></a>
-                    <!-- <ol>
-                        <li><strong>Understand the Fundamentals:</strong> Explore our <a href="what-is-genai.html">What is AI?</a> guide for a comprehensive introduction.</li>
-                        <li><strong>Identify Potential Applications:</strong> Review the <a href="benefits-in-am.html">Benefits in AM</a> section to identify areas in your workflow that could benefit from AI.</li>
-                        <li><strong>Explore Core Technologies:</strong> Dive into our <a href="../core-technologies/index.html">Core Technologies</a> section to understand the underlying models and frameworks.</li>
-                        <li><strong>Follow Tutorials:</strong> Apply what you've learned with our step-by-step <a href="../tutorials/index.html">Implementation Tutorials</a>.</li>
-                        <li><strong>Study Case Studies:</strong> Learn from real-world examples in our <a href="../case-studies/index.html">Case Studies</a> section.</li>
-                    </ol> -->
-                    
-                    <div class="cta-box">
-                        <h3>Ready to Explore Further?</h3>
-                        <p>Continue your journey by exploring specific aspects of AI in AM:</p>
-                        <div class="cta-buttons">
-                            <a href="../core-technologies/foundation-models.html" class="btn">Explore Foundation Models</a>
-                            <a href="../tutorials/prompt-engineering.html" class="btn btn-outline">Learn Prompt Engineering</a>
-                            <a href="current-landscape.html" class="btn">View Full Landscape Analysis</a>
-                            <a href="what-is-genai.html" class="btn">Learn More About AI</a>
-                            <a href="benefits-in-am.html" class="btn">Explore All Benefits</a>
+
+                        <div>
+                            <h3>Key Concepts in AI Development</h3>
+                            <p>Several fundamental concepts are essential for effective AI model development:</p>
+                            <div class="concept-box">
+                                <h4>Features and Labels</h4>
+                                <p>In supervised learning, features are the input variables used to make predictions, while labels are the output variables the model tries to predict. In AM, features might include temperature readings, laser power, scan speed, while labels could be part quality, dimensional accuracy, or defect presence.</p>
+                            </div>
+
+                            <div class="concept-box">
+                                <h4>Training, Validation, and Testing</h4>
+                                <p>Data is typically split into three sets: training (to teach the model), validation (to tune hyperparameters and prevent overfitting), and testing (to evaluate final model performance). Proper data splitting is crucial for developing robust AM AI models.</p>
+                            </div>
+
+                            <div class="concept-box">
+                                <h4>Overfitting and Underfitting</h4>
+                                <p>Overfitting occurs when a model learns the training data too well, including noise and outliers, resulting in poor generalization to new data. Underfitting happens when a model is too simple to capture the underlying patterns in the data. Balancing model complexity is key to effective AI development.</p>
+                            </div>
                         </div>
                     </div>
                 </section>
-                
-                <!-- Pagination -->
-                <div class="pagination">
-                    <a href="../../index.html" class="pagination-item pagination-prev">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="19" y1="12" x2="5" y2="12"></line>
-                            <polyline points="12 19 5 12 12 5"></polyline>
-                        </svg>
+
+                <!-- Data Preparation -->
+                <section class="content-section" data-level="intermediate" id="data-preparation">
+                    <h2>Data Preparation for AM AI Models</h2>
+                    <span class="complexity-badge complexity-intermediate">Intermediate</span>
+
+                    <p>The quality and suitability of your data directly impact the performance of your AI models. This section covers the essential steps for preparing data specifically for additive manufacturing applications.</p>
+
+                    <div class="two-column">
                         <div>
-                            <div class="pagination-label">Previous</div>
-                            <div class="pagination-title">Home</div>
+                            <h3>Data Collection for AM</h3>
+                            <p>Effective AI models require relevant, high-quality data. In AM, this includes:</p>
+                            <ul>
+                                <li><strong>Process Data:</strong> Temperature, pressure, laser power, scan speed, layer thickness, build platform movement</li>
+                                <li><strong>Sensor Data:</strong> Images from cameras, spectra from sensors, acoustic emissions, vibration measurements</li>
+                                <li><strong>Material Data:</strong> Chemical composition, particle size distribution, moisture content, thermal properties</li>
+                                <li><strong>Design Data:</strong> CAD models, STL files, layer orientations, support structures</li>
+                                <li><strong>Quality Data:</strong> Dimensional measurements, surface roughness, mechanical testing results, defect classification</li>
+                                <li><strong>Environmental Data:</strong> Ambient temperature, humidity, atmospheric conditions (for certain AM processes)</li>
+                            </ul>
                         </div>
-                    </a>
-                    
-                    <!-- <a href="what-is-genai.html" class="pagination-item pagination-next"> -->
-                    <a href="genai_agents.html" class="pagination-item pagination-next"> 
+
                         <div>
-                            <div class="pagination-label">Next</div>
-                            <div class="pagination-title">AI Agent</div>
+                            <h3>Data Preprocessing Steps</h3>
+                            <p>Raw AM data typically requires several preprocessing steps before it's suitable for AI model training:</p>
+                            <ol>
+                                <li><strong>Data Cleaning:</strong> Remove or correct erroneous data points, handle missing values, filter noise</li>
+                                <li><strong>Data Normalization:</strong> Scale features to similar ranges to prevent domination by features with larger magnitudes</li>
+                                <li><strong>Feature Engineering:</strong> Create new features that better represent the underlying phenomena (e.g., energy density from laser power, scan speed, and spot size)</li>
+                                <li><strong>Data Augmentation:</strong> Increase dataset size through techniques like rotation, scaling, or adding controlled noise (particularly important for image data)</li>
+                                <li><strong>Temporal Alignment:</strong> Synchronize data from different sources that may have different sampling rates or timestamps</li>
+                            </ol>
                         </div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                            <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
-                    </a>
-                </div>
+                    </div>
+
+                    <div class="warning-box">
+                        <h4>⚠️ Critical Consideration for AM Data</h4>
+                        <p>AM data often exhibits significant variability due to the complex interactions between laser/material/environment. Ensuring sufficient data coverage of this variability is essential for developing robust models that perform well under different operating conditions.</p>
+                    </div>
+                </section>
+
+                <!-- Model Selection & Training -->
+                <section class="content-section" data-level="intermediate" id="model-selection">
+                    <h2>Model Selection and Training</h2>
+                    <span class="complexity-badge complexity-intermediate">Intermediate</span>
+
+                    <p>Choosing the right AI model architecture and properly training it are critical steps in developing effective AI solutions for additive manufacturing.</p>
+
+                    <div class="two-column">
+                        <div>
+                            <h3>Selecting Appropriate Models</h3>
+                            <p>The choice of AI model depends on the specific AM application, data type, and desired outcomes:</p>
+                            <div class="model-selection-guide">
+                                <h4>For Predictive Tasks (Quality, Properties, Failures):</h4>
+                                <p>Consider regression models (linear, polynomial, random forest, gradient boosting) for continuous outcomes, and classification algorithms (logistic regression, SVM, decision trees, neural networks) for categorical predictions.</p>
+
+                                <h4>For Image-Based Applications (Defect Detection, Quality Assessment):</h4>
+                                <p>Convolutional Neural Networks (CNNs) excel at processing visual data. U-Net architectures are particularly effective for segmentation tasks like identifying defects in layer images.</p>
+
+                                <h4>For Sequential/Time-Series Data (Process Monitoring, Control):</h4>
+                                <p>Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM) networks, and Gated Recurrent Units (GRUs) are well-suited for temporal data. Temporal Convolutional Networks (TCNs) offer an alternative approach.</p>
+
+                                <h4>For Optimization and Design Generation:</h4>
+                                <p>Generative Adversarial Networks (GANs) can generate novel designs. Variational Autoencoders (VAEs) are useful for learning latent representations of designs. Reinforcement Learning approaches can optimize process parameters.</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3>Training Best Practices</h3>
+                            <p>Effective model training requires attention to several key aspects:</p>
+                            <div class="training-tips">
+                                <h4>Hyperparameter Tuning:</h4>
+                                <p>Parameters like learning rate, batch size, number of epochs, and network architecture significantly impact model performance. Use systematic approaches like grid search, random search, or Bayesian optimization to find optimal values.</p>
+
+                                <h4>Regularization Techniques:</h4>
+                                <p>Prevent overfitting with methods like L1/L2 regularization, dropout, early stopping, and data augmentation.</p>
+
+                                <h4>Cross-Validation:</h4>
+                                <p>Use k-fold cross-validation to get more reliable estimates of model performance, especially when data is limited.</p>
+
+                                <h4>Hardware Considerations:</h4>
+                                <p>Training complex models may require GPUs or specialized hardware. Consider using cloud-based solutions or distributed training for large datasets.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="success-box">
+                        <h4>💡 Training Tip for AM Applications</h4>
+                        <p>When training models for AM applications, consider using physics-informed neural networks that incorporate known physical laws of the manufacturing process. This can improve generalization and reduce data requirements.</p>
+                    </div>
+                </section>
+
+                <!-- Deployment & Monitoring -->
+                <section class="content-section" data-level="advanced" id="deployment">
+                    <h2>Deployment and Monitoring</h2>
+                    <span class="complexity-badge complexity-advanced">Advanced</span>
+
+                    <p>Successfully deploying and monitoring AI models in AM environments ensures they continue to deliver value over time and adapt to changing conditions.</p>
+
+                    <div class="two-column">
+                        <div>
+                            <h3>Deployment Strategies</h3>
+                            <p>Several approaches exist for deploying AI models in additive manufacturing workflows:</p>
+                            <ul>
+                                <li><strong>Edge Deployment:</strong> Running models directly on or near the AM equipment for real-time control and feedback. Requires consideration of computational constraints and latency requirements.</li>
+                                <li><strong>Cloud Deployment:</strong> Hosting models in cloud platforms with APIs for AM systems to access. Offers scalability and easier updates but introduces network dependency.</li>
+                                <li><strong>Hybrid Approach:</strong> Combining edge and cloud deployment - lightweight models/run-time inference on edge, complex model training/updates in cloud.</li>
+                                <li><strong>Batch Processing:</strong> Processing collected data in batches rather than real-time, suitable for quality assurance and process improvement rather than immediate control.</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3>Model Monitoring and Maintenance</h3>
+                            <p>Deployed models require ongoing monitoring to ensure they continue to perform effectively:</p>
+                            <div class="monitoring-guide">
+                                <h4>Performance Tracking:</h4>
+                                <p>Monitor key metrics like prediction accuracy, false positive/negative rates, and confidence scores. Set up alerts for performance degradation beyond acceptable thresholds.</p>
+
+                                <h4>Data Drift Detection:</h4>
+                                <p>Monitor changes in input data distribution compared to training data. Significant drift may indicate need for model retraining.</p>
+
+                                <h4>Concept Drift Monitoring:</h4>
+                                <p>Watch for changes in the underlying relationships between inputs and outputs that the model learned, which may occur due to changes in materials, equipment, or environmental conditions.</p>
+
+                                <h4>A/B Testing:</h4>
+                                <p>When deploying model updates, use A/B testing to compare performance against the current production model before full rollout.</p>
+
+                                <h4>Feedback Loops:</h4>
+                                <p>Incorporate operator feedback and actual production outcomes to continuously improve model performance.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="implementation-box">
+                        <h4>📋 Implementation Checklist</h4>
+                        <p>Before deploying an AI model in an AM environment, verify:</p>
+                        <ul>
+                            <li>Model performance meets minimum accuracy requirements on validation/test sets</li>
+                            <li>Inference latency is acceptable for the intended use case (real-time vs batch)</li>
+                            <li>Model is robust to expected variations in input data</li>
+                            <li>Proper error handling and fallback mechanisms are in place</li>
+                            <li>Security considerations are addressed (data privacy, model protection)</li>
+                            <li>Regulatory/compliance requirements are met if applicable</li>
+                        </ul>
+                    </div>
+                </section>
             </div>
         </div>
-        
+
         <!-- Content Depth Indicator -->
         <div class="content-depth-indicator">
             <!-- Markers will be generated by JavaScript -->
@@ -302,24 +314,20 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>AI in Additive Manufacturing</h3>
-                    <p>An educational resource designed to introduce and guide users into generative AI applications within the additive manufacturing.</p>
+                    <p>An educational resource designed to introduce and guide users into AI applications within the additive manufacturing.</p>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Quick Links</h3>
                     <ul class="footer-links">
-                        <!-- <li><a href="../intro/index.html">Introduction</a></li>
-                        <li><a href="../core-technologies/index.html">Core Technologies</a></li>
-                        <li><a href="../tutorials/index.html">Tutorials</a></li>
-                        <li><a href="../case-studies/index.html">Case Studies</a></li>
-                        <li><a href="../resources/index.html">Resources</a></li> -->
-                        <li><a href="../Develop AI models/index_nowrin.html">Develop AI model</a></li>
+                        <li><a href="../../index.html">Home</a></li>
+                        <li><a href="../Agentic AI/index.html">Agentic AI for AM</a></li>
+                        <li><a href="../Develop AI models/index_nowrin.html">AI Models Development</a></li>
                         <li><a href="../AI Agent/index.html">AI Agent</a></li>
-                        <li><a href="../AM_dataset/datasets.html">Resources</a></li>
-                        <li><a href="../Miscellaneous/index.html">Miscellaneous</a></li>
+                        <li><a href="../AM_dataset/datasets.html">Data For AI</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>References</h3>
                     <ul class="footer-links">
@@ -327,7 +335,7 @@
                     </ul>
                 </div>
             </div>
-            
+
             <div class="copyright">
                 <p>&copy; <script>document.write(new Date().getFullYear())</script> AI in Additive Manufacturing. All rights reserved.</p>
             </div>
